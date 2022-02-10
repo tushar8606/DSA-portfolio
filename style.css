@@ -1,0 +1,102 @@
+html{
+    height: auto;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #800080;
+    font-family: 'Roboto Mono', monospace;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.header a{
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #111;
+}
+.about{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 40%;
+}
+hr{
+    background-color: aqua;
+    width: 90%;
+    margin-top: 50px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+.skills img{
+    width: 50px;
+    margin-left: 30px;
+}
+.skills-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.education{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.education-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+.contact-info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.contact-info img{
+    width: 50px;
+}
+.contact-info a{
+    margin-left: 20px;
+}
